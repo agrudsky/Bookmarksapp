@@ -1,0 +1,31 @@
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-2">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Bookmarks</a>
+      <ul class="nav navbar-nav">
+          <!-- <li class="active"><a href="#">Home</a></li> -->
+          <li><a href="http://ruby-box-131007.usw1.nitrousbox.com/main/1">Google</a></li>
+          <li><a href="http://ruby-box-131007.usw1.nitrousbox.com/main/2">ESPN</a></li>
+          <li><a href="http://ruby-box-131007.usw1.nitrousbox.com/main/3">Lantern</a></li>
+        </ul>
+    </div>
+
+  </div>
+</nav>
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>
+        <a href="<%= @bookmark.url %>"> <%= @bookmark.name %></a>
+        <small><%= @bookmark.desc %></small>
+      </h1>
+    </div>
+  </div>
+</div>
+  
